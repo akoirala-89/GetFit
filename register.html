@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="subscribestyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+		<div class="links">
+		<span class = "external_link"><a href= "index.html"> Home</a></span>
+		<span class="current_link">Subscribe</span>
+		<span class = "external_link"> <a href= "about.html"> About Us </a></span>
+		</div>
+
+		<h1> GetFit! </h1>
+
+		
+	
+		<div class ="register">
+
+	<form method = "GET"> 
+		<!-- Use GET when programming the form -->
+
+		First Name: <input type="text" required name= "first_name"> <br>
+		Last Name: <input type ="text" required name= "last_name"><br>
+		Email: <input type="email" required name="email"><br>
+		Choose A Password: <input type="password" minlength="8" required name="password"><br>
+		Date Of Birth: <input type = "date" required name="birthday"> <br> <br>
+		Gender:<br> 
+		<input type= "radio" name= "gender" value= "Male">Male <br> 
+		<input type= "radio" name= "gender" value= "Female">Female <br> 
+		<input type= "radio" name= "gender" value= "Other">Other <br><br>
+		I would like info for:<br>
+		<input type="checkbox" name = "body_sculpting"> Body sculpting <br>
+		<input type="checkbox" name= "nutrition_advice"> Nutrition advice <br>
+		<input type="checkbox" name= "improve_performance"> Improving Performance <br><br>
+		I am based in:<br> 
+		<select name = "City"> 
+			<option value = "Auckland"> Auckland </option>
+			<option value = "Wellington"> Wellington </option>
+			<option value = "Christchurch"> Christchurch</option>
+			<option value = "Other"> Other</option>
+		</select><br><br>
+
+		<input type= "submit" value = "I'm ready to change!"> 
+		<input type = "reset" value = "I made a mistake, restart please!">
+
+
+	</form>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

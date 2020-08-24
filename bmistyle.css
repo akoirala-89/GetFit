@@ -1,0 +1,101 @@
+body { 
+
+	background-color: #d9d9d9;
+	background: url(GetFitbackground.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+ }
+
+  a{
+text-decoration: none;
+color: black;
+}
+
+a:visited{
+text-decoration: none;
+color: black;
+}
+
+   .links{
+
+ 	background-color: #a6a8ab;
+ 	height:100%;
+ 	border-radius: 20px;
+
+ }
+
+.external_link:hover{ 
+	font-weight: bold;
+
+ }
+
+
+fieldset {
+	width: 300px;
+	margin: 25px 0 0 50px;
+	border: 1px solid #999999;
+	box-shadow: 1px 1px #cccccc;
+	padding: 10px;
+}
+
+label {
+	float: left;
+	width: 140px;
+	display: block;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+button {
+	margin-left: 150px;
+}
+
+input {
+	margin-top: 10px;
+	display: block;
+	text-align: right;
+	width: 128px;
+}
+
+fieldset{
+	background-color: #a6a8ab;
+	border-radius: 5px;
+}
+
+
+
+
+#bmi_label {
+	width: 200px;
+
+}
+
+#bmi {
+	width: 66px;
+}
+
+#intro {
+	width: 300px;
+	margin: 25px 0 0 50px;
+	padding: 10px;
+	border: 1px solid #999999;
+	box-shadow: 1px 1px #cccccc;
+	background-color: #a6a8ab;
+	border-radius: 5px;
+}
+
+/* lines 37 to 91 taken from https://codepen.io/sdlambert/pen/vwJBf */
+
+span{
+	background-color: #a6a8ab;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-radius: 5px;
+}
+

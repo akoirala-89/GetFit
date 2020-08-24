@@ -1,0 +1,78 @@
+body,
+html { 
+
+	background-color: #d9d9d9;
+	background: url(GetFitbackground.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+ }
+
+
+ a{
+text-decoration: none;
+color: black;
+}
+
+a:visited{
+text-decoration: none;
+color: black;
+}
+
+ .links{
+
+ 	background-color: #a6a8ab;
+ 	height:100%;
+ 	border-radius: 20px;
+
+ }
+
+
+
+.external_link:hover{ 
+	font-weight: bold;
+
+ }
+
+ h1{
+
+text-align: center;
+
+ }
+
+ .span1{
+ 	background-color: #a6a8ab;
+ 	padding:10px;
+ 	padding-left: 40px;
+ 	padding-right: 40px;
+ 	border-radius: 20px;
+ }
+
+ figure{ 
+
+ 	width: 20%;
+ 	height: 20%;
+ 	display: inline-block;
+
+  }
+
+  figcaption {
+    background-color: #a6a8ab;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    border-radius: 20%
+}
+
+img{ 
+	border-radius: 20%;
+	transition: all 1s;
+ }
+
+ img:hover{
+ 	transform: scale(1.1);
+
+ }
