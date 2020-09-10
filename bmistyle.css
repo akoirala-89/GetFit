@@ -33,6 +33,10 @@ color: black;
 
  }
 
+.calculatorcontainer{
+	display: grid;
+	justify-content: center;
+}
 
 fieldset {
 	width: 300px;
@@ -67,6 +71,7 @@ fieldset{
 	background-color: #a6a8ab;
 	border-radius: 5px;
 }
+
 
 
 
